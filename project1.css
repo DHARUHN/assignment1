@@ -206,9 +206,11 @@ li{
     grid-template-columns: repeat(3,1fr);
     column-gap:0px;
     row-gap:7rem;
-    justify-content: center;
     text-align: center;
     margin-left: 13rem;
+    justify-content: space-evenly;
+    position:static;
+    
 }
 .i3
 {
@@ -347,7 +349,7 @@ body{
 }
 .bottomline
 {
-    margin-bottom: -3.5rem;
+    margin-bottom: -4.5rem;
     color: rgb(32, 32, 32);
     padding-bottom: 3rem;
     background-color: rgb(39, 38, 38);
@@ -355,4 +357,53 @@ body{
 .map
 {
     margin-top: 10rem;
+}
+.fo {
+    margin-top: -1rem;
+    margin-bottom: -3rem;
+    padding-bottom: -15rem;
+    display: flex;
+    padding-top: -3.5rem;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(39, 38, 38);
+    text-align: center;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.w9 {
+    margin-left: 100px;
+    margin-top: 35px;
+    color: rgb(184, 184, 184);
+    font-size: 13px;
+}
+
+.as {
+    width: 20px;
+    height: 20px;
+    margin-top: 35px;
+    margin-left: 250px;
+    margin-right: 2px;
+}
+
+.ad {
+    width: 20px;
+    height: 20px;
+    margin-top: 35px;
+    margin-left: 3px;
+    margin-right: 2px;
+}
+
+.zm {
+    margin-left: 215px;
+    margin-top: 35px;
+    color: rgb(184, 184, 184);
+    font-size: 13px;
+}
+.end{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 3.7rem;
+    color: rgb(8, 8, 8);
 }
